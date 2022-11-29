@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    background-image: url("../img/texture-g96e313955_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+header h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 2rem;
+    text-shadow: 0 0 2px white;
+}
+
+header button {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+}
+
+#outputMisteryInWords {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+section {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#suspectCard {
+    width: 250px;
+    height: 460px;
+    margin: 0 3rem auto auto;
+    /* background-image: url("../img/annie-spratt-yorwIcw6IR0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border: 30px solid transparent;
+    border-image-source: url("../img/frame-g5a3aaa8d7_640.png");
+    border-image-slice: 70;
+    display: grid;
+    grid-template-rows: 150px 50px 50px 100px;
+    background-color: rgb(127, 121, 121);
+}
+
+#suspectCard img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+#suspectNickname {
+    border: 1.5px solid rgb(36, 27, 5);
+    background-color: goldenrod;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#suspectFullnameAndAge,
+#suspectOccupation,
+#suspectDescription {
+    background-color: dimgrey;
+    padding: 1rem 1rem;
+}
+
+#suspectFullnameAndAge {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#suspectOccupation,
+#suspectDescription {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#weaponAndRoom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 3rem;
+}
+
+#weaponCard,
+#roomCard {
+    width: 50%;
+    border: 30px solid black;
+    border-image-source: url("../img/frame-g5a3aaa8d7_640.png");
+    border-image-slice: 70;
+    /* background-image: url("../img/annie-spratt-yorwIcw6IR0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: aqua; */
+    /* background-size: cover; */
+    background-color: rgb(127, 121, 121);
+
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2;
+}

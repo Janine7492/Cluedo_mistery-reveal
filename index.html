@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cluedo</h1>
+        <button id="button" type="button" onclick="pickMistery()">Reveal Mistery</button>
+    </header>
+
+    <p id="outputMisteryInWords"></p>
+
+    <section>
+        <div id="suspectCard">
+            <img src="./assets/img/pexels-kat-wilcox-923681.jpg" alt="" id="suspectImg">
+            <h2 id="suspectNickname">Who killed Mr. Boddy?</h2>
+            <h3 id="suspectFullnameAndAge">Can you</h3>
+            <article>
+                <p id="suspectOccupation">solve the</p>
+                <p id="suspectDescription">mistery?</p>
+            </article>
+        </div>
+        <div id="weaponAndRoom">
+            <div id="weaponCard">
+                <p id="chosenWeapon">Which Weapon was used?</p>
+                <p id="chosenWeaponWeight"></p>
+            </div>
+            <div id="roomCard">
+                <p id="chosenRoom">Where was he killed?</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
